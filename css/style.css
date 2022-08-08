@@ -1,23 +1,33 @@
 body{
     background-color: rgb(11, 25, 47);
 }
-
 @font-face {
     font-family: FontSourceCodeRegular;
     src: url(../fonts/SourceCodePro-Regular.ttf);
 }
-
 @font-face {
     font-family: FontSourceCodeBold;
     src: url(../fonts/SourceCodePro-Bold.ttf);
     font-weight: bold;
 }
 
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    float: right;
+    width: 100%;
+}
+
+.navbar button{
+    float: right;
+    margin-right: 2%;
+}
+
 .presentacion {
     width: 80%;
-    height: 200px;
     display: inline-block;
-    margin: 1% auto 2% 1.5%;
+    margin: 3% auto 2% 1.5%;
     background-color: rgb(11, 25, 47);
 }
 .links-sociales{
@@ -51,12 +61,11 @@ button {
     background-color: transparent;
     text-align: center;
     text-transform: uppercase;
-    font-size: 16px;
     transition: .3s;
     z-index: 1;
-    font-family: inherit;
+    font-family: FontSourceCodeRegular;
     color: #17C3B2;
-}
+   }
 
 button::before {
     content: '';
@@ -65,7 +74,7 @@ button::before {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(15deg);
     background: #17C3B2;
     transition: .5s ease;
     display: block;
