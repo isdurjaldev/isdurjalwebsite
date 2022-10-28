@@ -1,0 +1,9 @@
+button id msg
+
+<div id="MsgBox" class="modal">
+            <div class="modal_content">
+                <span class="close">&times;</span>
+
+                <p>Contenido de la modal</p>
+            </div>
+        </div>

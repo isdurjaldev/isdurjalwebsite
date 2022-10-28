@@ -1,0 +1,9 @@
+@keyframes fill {
+    100% {
+        width: 100%;
+    }
+
+    0%{
+        width: 0%;
+    }
+}

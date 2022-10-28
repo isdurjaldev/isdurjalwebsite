@@ -1,0 +1,9 @@
+@font-face {
+    font-family: FontSourceCodeRegular;
+    src: url(../fonts/SourceCodePro-Regular.ttf);
+}
+@font-face {
+    font-family: FontSourceCodeBold;
+    src: url(../fonts/SourceCodePro-Bold.ttf);
+    font-weight: bold;
+}
