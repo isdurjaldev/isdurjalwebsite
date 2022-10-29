@@ -1,12 +1,11 @@
+@import url(animations.css);
+
 .neon_h1{
     color: #ffffff;
   text-shadow:
       0 0 10px #ffffff,
-      0 0 21px #f8f8f8,
       0 0 42px #0fa,
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa;
+      0 0 82px #0fa
 }
 
 .neon_h2{
@@ -25,7 +24,6 @@
     text-shadow:
     0 0 10px #ffffff,
     0 0 42px #0fa;
-    text-align: center;
 }
 
 .neon_text{
@@ -44,4 +42,13 @@
       0 0 21px #f8f8f8,
       0 0 42px #0fa,
       0 0 82px #0fa
+}
+
+.typed{
+  overflow: hidden;
+  border-right: 10px solid #0076d1;
+  white-space: nowrap;
+  animation: typing 5s steps(35, end) forwards,
+      blink .5s infinite;
+  width: 0;
 }
