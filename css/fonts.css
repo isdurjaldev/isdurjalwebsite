@@ -7,3 +7,13 @@
     src: url(../fonts/SourceCodePro-Bold.ttf);
     font-weight: bold;
 }
+
+@font-face {
+    font-family: RobotoMonoRegular;
+    src: url(../fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: UbuntuRegular;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
