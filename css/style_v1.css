@@ -160,6 +160,7 @@ li{
     position: fixed;
     overflow-wrap: break-word;
     margin: 3% 3%;
+    font-family: RobotoMonoRegular;
 }
 
 .focused-area{
