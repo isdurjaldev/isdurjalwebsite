@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(90deg,#010F12,#001B30,#010F12);
+    /* background-image: linear-gradient(90deg,#010F12,#001B30,#010F12); */
 }
 
 .wrapper{
@@ -34,7 +34,13 @@ li{
     }
 }
 
-
+@media screen and (max-width: 992px) {
+    body {
+      color: white;
+      background-image: linear-gradient(90deg,#cbdf1f,#001B30,#cbdf1f);
+    }
+  }
+  
 /* .neon_primary{
     color: #ffffff;
   text-shadow:

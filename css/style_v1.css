@@ -10,7 +10,7 @@ body{
     /* font-family: UbuntuRegular; */
     /* user-select: none; */
 }
-
+  
 .principal_container{
     width: 70%;
     margin: 0 auto;
@@ -27,6 +27,12 @@ body{
 .principal_content{
     display: inline-block;
     padding: 1%;
+}
+
+@media screen and (max-width:992px) {
+    .principal_container{
+        width: 100%;
+    }
 }
 
 .lang{
@@ -50,6 +56,21 @@ body{
     display: inline-table;
 }
 
+@media screen and (max-width:992px) {
+    .lang{
+        margin: 0 auto;
+    }
+
+    .lang ul{
+        width: 85%;
+        display: block;
+    }
+
+    .design_abilities ul{
+        width: 80%;
+    }
+}
+
 .experience{
     width: 80%;
     margin: 0 auto;
@@ -62,6 +83,12 @@ body{
     margin: 5px 5px;
     padding: 2%;
     overflow-wrap: break-word;
+}
+
+@media screen and (max-width:992px) {
+    .xp_card{
+        width: 80%;
+    }
 }
 
 .xp_card_content{
@@ -87,6 +114,12 @@ body{
 }
 .education .xp_card{
     width: 40%;
+}
+
+@media screen and (max-width:992px) {
+    .education .xp_card{
+        width: 80%;
+    }
 }
 
 .contact{
@@ -159,8 +192,17 @@ li{
     float: left;
     position: fixed;
     overflow-wrap: break-word;
-    margin: 3% 3%;
+    margin: -10% 3%;
     font-family: RobotoMonoRegular;
+}
+
+@media screen and (max-width:992px) {
+    .email{
+        width: 100%;
+        position: relative;
+        margin: 10px auto;
+        text-align: center;
+    }
 }
 
 .focused-area{
