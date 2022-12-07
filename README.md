@@ -1,3 +1,3 @@
 # curriculum
  
-Enlace: https://isdurjaldev.github.io/curriculum/
+Enlace: isdurjalsw.com
