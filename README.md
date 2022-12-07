@@ -1,3 +1,3 @@
 # curriculum
  
-Enlace: isdurjalsw.com
+Enlace: www.isdurjalsw.com
