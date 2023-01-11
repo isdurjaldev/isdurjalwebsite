@@ -1,17 +1,16 @@
 @import url(fonts.css);
 @import url(text-effects.css);
 @import url(animations.css);
-
-body{
-    /* background-color: rgb(0, 0, 60); */
-    background-image: linear-gradient(90deg,#02181d,#001B30,#02181d);
+body {
+    /* background-color: rgb(59, 83, 102); */
+    background-image: linear-gradient(90deg, #02181d, #001B30, #02181d);
     /* font-family: FontSourceCodeRegular; */
     font-family: RobotoMonoRegular;
     /* font-family: UbuntuRegular; */
     /* user-select: none; */
 }
-  
-.principal_container{
+
+.principal_container {
     width: 70%;
     margin: 0 auto;
     padding: 1%;
@@ -21,63 +20,70 @@ body{
     /* border-bottom-left-radius: 100px; */
     /* box-shadow: 0px 0px 10px 0px rgb(133, 133, 133), inset 0px 0px 30px rgb(133, 133, 133); */
 }
-.principal_container:nth-child(){
+
+.principal_container:nth-child() {
     height: fit-content;
 }
-.principal_content{
+
+.principal_content {
     display: inline-block;
     padding: 1%;
 }
 
 @media screen and (max-width:992px) {
-    .principal_container{
+    .principal_container {
         width: 100%;
     }
 }
 
-.lang{
+.services {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
 
-.lang ul{
+.lang {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lang ul {
     width: 25%;
     display: inline-table;
 }
 
-.design_abilities{
+.design_abilities {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
-.design_abilities ul{
+
+.design_abilities ul {
     width: 25%;
     display: inline-table;
 }
 
 @media screen and (max-width:992px) {
-    .lang{
+    .lang {
         margin: 0 auto;
     }
-
-    .lang ul{
+    .lang ul {
         width: 85%;
         display: block;
     }
-
-    .design_abilities ul{
+    .design_abilities ul {
         width: 80%;
     }
 }
 
-.experience{
+.experience {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
 
-.xp_card{
+.xp_card {
     width: 25%;
     display: inline-table;
     margin: 5px 5px;
@@ -86,48 +92,71 @@ body{
 }
 
 @media screen and (max-width:992px) {
-    .xp_card{
+    .xp_card {
         width: 80%;
     }
 }
 
-.xp_card_content{
+.xp_card_content {
     margin: 1%;
 }
 
-.xp_card_content{
+.xp_card_content {
     width: 100%;
     border-top: 5px solid rgba(171, 180, 255, 0.514);
 }
-.xp_card>h3{
-    margin:0;
+
+.xp_card>h3 {
+    margin: 0;
 }
 
-.xp_card_content>h4{
-    margin:0;
+.xp_card_content>h4 {
+    margin: 0;
 }
 
-.education{
+.education {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
-.education .xp_card{
+
+.education .xp_card {
+    width: 40%;
+}
+
+.clients {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aplications {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aplications small {
+    width: 80%;
+    bottom: 0;
+}
+
+.clients .xp_card {
     width: 40%;
 }
 
 @media screen and (max-width:992px) {
-    .education .xp_card{
+    .education .xp_card {
         width: 80%;
     }
 }
 
-.contact{
+.contact {
     text-align: center;
     width: 100%;
 }
 
-.formulario{
+.formulario {
     width: 80%;
     margin: 2% auto;
 }
@@ -143,7 +172,7 @@ body{
     box-shadow: 0px 2px 10px 0px rgba(171, 180, 255, 0.514);
 }
 
-.formulario textarea{
+.formulario textarea {
     width: 50%;
     margin: 1% auto;
     font-family: RobotoMonoRegular;
@@ -154,30 +183,30 @@ body{
     box-shadow: 0px 2px 10px 0px rgba(171, 180, 255, 0.514);
 }
 
-
-li{
+li {
     list-style: none;
 }
 
-.nivel{
+.nivel {
     padding: 2%;
     animation: fill 1s normal ease-in;
 }
 
-.positivo{
+.positivo {
     height: inherit;
     background-color: dodgerblue;
     float: left;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
 }
-.positivo p{
+
+.positivo p {
     color: white;
     margin: 0;
     text-align: center;
 }
 
-.negativo{
+.negativo {
     height: inherit;
     background-color: slategray;
     float: left;
@@ -185,7 +214,7 @@ li{
     border-bottom-right-radius: 50px;
 }
 
-.email{
+.email {
     width: 15px;
     height: max-content;
     color: white;
@@ -194,10 +223,15 @@ li{
     overflow-wrap: break-word;
     margin: -10% 3%;
     font-family: RobotoMonoRegular;
+    border-right: 2px solid #17C3B2;
+}
+
+.email a {
+    color: white;
 }
 
 @media screen and (max-width:992px) {
-    .email{
+    .email {
         width: 100%;
         position: relative;
         margin: 10px auto;
@@ -205,7 +239,7 @@ li{
     }
 }
 
-.focused-area{
+.focused-area {
     padding: 0.8em 1.8em;
     border: 2px solid #17C3B2;
     position: relative;
@@ -219,7 +253,11 @@ li{
     color: #17C3B2;
 }
 
-.focused-area::before{
+.focused-area p {
+    color: white;
+}
+
+.focused-area::before {
     content: '';
     width: 0;
     height: 300%;
@@ -237,14 +275,22 @@ li{
     width: 100%;
 }
 
-.focused-area:hover li{
+.focused-area:hover li {
     color: black;
 }
 
-.focused-area:hover .xp_card{
+.focused-area:hover small {
+    color: white;
+}
+
+.focused-area:hover .xp_card {
     color: black;
 }
 
-.focused-area:hover .xp_card_content{
+.focused-area:hover .xp_card_content {
     border-top: 5px solid slategrey;
+}
+
+a:link {
+    text-decoration: none;
 }
